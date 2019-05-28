@@ -1,6 +1,10 @@
+
+'''
+Not very clear how the class definitions are used because these are not instantiated anywhere?
+'''
+
 from keras import backend as K
 from keras.layers import Layer
-
 
 class MaxPoolingWithArgmax2D(Layer):
 
